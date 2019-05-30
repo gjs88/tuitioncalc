@@ -1,0 +1,26 @@
+[
+  {
+    "DeptID": 1,
+    "Name": "Name1",
+    "Location": "Location1",
+    "Address": "North 1st Ave"
+  },
+  {
+    "DeptID": 2,
+    "Name": "Name2",
+    "Location": "Location2",
+    "Address": "West 2nd St"
+  },
+  {
+    "DeptID": 3,
+    "Name": "Name3",
+    "Location": "Location3",
+    "Address": "South 3rd Rd"
+  },
+  {
+    "DeptID": 4,
+    "Name": "Name4",
+    "Location": "Location4",
+    "Address": "East 4th Dr"
+  }
+]
