@@ -19,22 +19,19 @@ $.ajax(
     }
   })
 
-  
+
 
   function showInfo()
   {
     //clear previous results
     $('#result1').html('');
-    
+
 
     //get the id of the select
     var id = $('#DeptSelect').val()
 
     //display all the relevant data for the department
     employeeRelations(id);
-    compensation(id)
-    employment(id);
-    employeePay(id);
   }
 
   function employeeRelations(id)
@@ -63,6 +60,3 @@ $.ajax(
 
     });
   }
-
-
-
