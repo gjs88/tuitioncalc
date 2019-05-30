@@ -45,7 +45,7 @@ function showInfo()
     '<li>NAU Human Resources and ABOR personnel policy interpretation</li>'+
     '<li>Compliance with federal and state law</li></ul>');
 
-    $.getJSON('https://bdb253.github.io/HRJsonProject/DeptData.json', function(data)
+    $.getJSON('https://raw.githubusercontent.com/Bdb253/HRJsonProject/master/DeptData.json', function(data)
     {
       $.each(data, function(key, val)
       {
@@ -71,7 +71,7 @@ function showInfo()
     '<li>Job classification titles and descriptions</li>'+
     '<li>Service professional compensation guidelines</li></ul>');
 
-    $.getJSON('https://bdb253.github.io/HRJsonProject/DeptData.json', function(data)
+    $.getJSON('https://raw.githubusercontent.com/Bdb253/HRJsonProject/master/DeptData.json', function(data)
     {
       $.each(data, function(key, val)
       {
@@ -104,7 +104,7 @@ function showInfo()
     'New Employee Hiring/Onboarding' +
     'Background and Fingerprint Checking</p>');
 
-    $.getJSON('https://bdb253.github.io/HRJsonProject/DeptData.json', function(data)
+    $.getJSON('https://raw.githubusercontent.com/Bdb253/HRJsonProject/master/DeptData.json', function(data)
     {
       $.each(data, function(key, val)
       {
@@ -141,7 +141,7 @@ function showInfo()
     'New Employee Hiring Packet Processing (Hire Xpress)' +
     'Off Cycle Check Processing</p>');
 
-    $.getJSON('https://bdb253.github.io/HRJsonProject/DeptData.json',
+    $.getJSON('https://raw.githubusercontent.com/Bdb253/HRJsonProject/master/DeptData.json',
     function(data)
     {
       $.each(data, function(key, val)
